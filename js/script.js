@@ -40,7 +40,7 @@ let hamburger = document.getElementById('hamburger');
                         n = 1;
                     }
 
-                    let newfile = '../images/mainvisual' + n + '.jpg';
+                    let newfile = '../images/mainvisual' + n + '.JPG';
                     photo.setAttribute('src', newfile);
                     photo.style.opacity = 1;
                 }, 300); 
@@ -105,4 +105,5 @@ document.getElementById('send').addEventListener('click', sendclick);
                         document.getElementById('mess_doi').style.color = 'red'
                     }
                 }
+
         }
